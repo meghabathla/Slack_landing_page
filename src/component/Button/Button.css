@@ -1,0 +1,23 @@
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.outlined_btn {
+  border: 2px solid #99349f;
+  color: #642067;
+  background: transparent;
+}
+.filled_btn {
+  color: white;
+  background: #99349f;
+  border: 2px solid #99349f;
+}

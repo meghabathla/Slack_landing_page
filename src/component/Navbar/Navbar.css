@@ -1,0 +1,85 @@
+.navbar_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem 2rem;
+  z-index: 3;
+}
+.navbar_first_section {
+  display: flex;
+  align-items: center;
+  /* gap: 2rem; */
+}
+.logo {
+  max-width: 60px;
+  max-height: 50px;
+}
+.nav_links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navbar_second_section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.search_icon {
+  font-size: 1.2rem;
+  color: #4a154b;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.nav_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav_buttons button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.signIn_btn {
+  background: transparent;
+  border: none;
+  color: #1d1c1d;
+}
+
+.sale_btn {
+  border: 2px solid #99349f;
+  color: #642067;
+  background: transparent;
+}
+.trail_btn {
+  color: white;
+  background: #99349f;
+  border: 2px solid #99349f;
+}
+/* 
+@media (max-width: 1024px) {
+  .navbar_section {
+    padding: 1rem;
+  }
+
+  .nav_links {
+    gap: 15px;
+    font-size: 0.9rem;
+  }
+
+  .nav_buttons button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+} */
